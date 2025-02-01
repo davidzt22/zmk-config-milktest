@@ -1,2 +1,2 @@
 config SHIELD_MILKTEST
-    def_bool $(sheilds_list_contains,milktest)
+    def_bool $(shields_list_contains,milktest)
