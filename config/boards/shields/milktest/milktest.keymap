@@ -2,6 +2,8 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+// Keycodes: https://zmk.dev/docs/keymaps/list-of-keycodes
+
 / {  
     keymap {
         compatible = "zmk,keymap";
