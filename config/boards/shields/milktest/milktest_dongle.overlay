@@ -15,14 +15,20 @@
     default_transform: keymap_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <3>; // Length of the "col-gpios" array
-        rows = <3>; // Length of the "row-gpios" array
+        rows = <6>; // Length of the "row-gpios" array
         map = <
-        //   Key 1 | Key 2 | Key 3
+        //   Key 0 | Key 0 | Key 1
             RC(0,0) RC(0,1) RC(0,2)
-        //   Key 4 | Key 5 | Key 6
+        //   Key 2 | Key 3 | Key 4
             RC(1,0) RC(1,1) RC(1,2)
-        //   Key 7 | Key 8 | Key 9
+        //   Key 5 | Key 6 | Key 7
             RC(2,0) RC(2,1) RC(2,2)
+        //   Key 8 | Key 9 | Key A
+            RC(3,0) RC(3,1) RC(3,2)
+        //   Key B | Key C | Key D
+            RC(4,0) RC(4,1) RC(4,2)
+        //   Key E | Key F | Key G
+            RC(5,0) RC(5,1) RC(5,2)
         >;
     };
 };
